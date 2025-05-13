@@ -1,0 +1,15 @@
+header{
+    height: 40px;
+    background: #04BF8A;
+    margin: 0px 0px 4px;
+}
+nav{
+    height: 40px;
+}
+.primer_nav{
+    background: #025940;
+    margin-bottom: 10px;
+}
+.segundo_nav{
+    background: #026873;
+}
