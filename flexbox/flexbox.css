@@ -1,0 +1,15 @@
+.principal{
+    height: 600px;
+    background: aqua;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal article{
+    height: 50px;
+    width: 50px;
+    background: pink;
+    margin: 20px;
+    border: 1px solid #000;
+}

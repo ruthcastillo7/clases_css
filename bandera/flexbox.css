@@ -1,0 +1,45 @@
+.principal{
+    height: 600px;
+    background: black;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    height: 150px;
+    width: 150px;
+    background: red;
+}
+.medio{
+    height: 150px;
+    width: 150px;
+    background: white;
+}
+
+.secundario{
+    height: 600px;
+    background: black;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.azul{
+    height: 150px;
+    width: 150px;
+    background: blue;
+}
+.blanco{
+    height: 150px;
+    width: 200px;
+    background: white;
+}
+.rojo{
+    padding-top: 15px;
+    height: 300px;
+    width: 350px;
+    background: red;
+}
