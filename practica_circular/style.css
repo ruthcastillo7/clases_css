@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section{
+    background: black;
+    height: 40px;
+    width: 40px;
+}
+section:hover{
+    background: yellow;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    transition: all 3s;
+    translate: 20% 300px;
+}

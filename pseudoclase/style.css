@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background: red;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background: black;
+    height: 40px;
+    width: 40px;
+    transition: all 1s;
+}
+section:hover{
+    background: yellow;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    rotate: 80deg;
+}

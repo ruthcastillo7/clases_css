@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background: gray;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.triangulo{
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid yellow;
+    transition: all 2s;
+}
+section:hover{
+    background: yellow;
+    height: 0;
+    width: 0;
+    border-radius: 100%;
+    rotate: 50deg;
+}
