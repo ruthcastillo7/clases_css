@@ -1,0 +1,44 @@
+body{
+    display: contents;
+    justify-content: center;
+}
+nav{
+    height: 40px;
+    width: 1294px;
+    background: greenyellow;
+    margin: 5px;
+    border: 3px solid green;
+    padding: 0.5em 0 0.2em 0;
+}
+.navegacion{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.nombre:hover{
+    background: cadetblue;
+    border-radius: 100px;
+    align-items: start;
+}
+section:hover{
+    padding: .3rem 2rem;
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inicio{
+    background: cadetblue;
+    border-radius: 100px;
+    margin-right: 1.5rem;
+}
+.nosotros{
+    background: cadetblue;
+    border-radius: 100px;
+    margin-right: 1.5rem;
+}
+.contacto{
+    background: cadetblue;
+    border-radius: 100px;
+    margin-right: 1.5rem;
+}
